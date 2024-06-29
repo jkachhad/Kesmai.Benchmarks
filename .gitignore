@@ -1,0 +1,12 @@
+.packages
+.vs
+.idea
+
+**/bin
+**/obj
+
+*.user
+*.suo
+*.xsd
+
+nuget.config
