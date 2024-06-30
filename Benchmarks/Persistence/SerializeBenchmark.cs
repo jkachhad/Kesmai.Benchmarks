@@ -64,7 +64,7 @@ public class SerializeBenchmark
 		for (int i = 0; i < 1000000; i++)
 			writer.Write((byte)0x01);
 
-		return writer.WrittenArray.Array;
+		return writer.WrittenArray.ToArray();
 	}
 }
 
